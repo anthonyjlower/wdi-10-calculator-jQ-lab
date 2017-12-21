@@ -16,11 +16,20 @@ When each .num-button is clicked I need it to understand the number value and sh
 //Create event listeners for buttons that prints the number buttons' value
 
 $('.num-button').on('click',(e)=>{
-	buttonValue = e.currentTarget
-	$buttonValue = ($(buttonValue).text())
-	numValue = parseInt($buttonValue, 10)
+	let buttonValue = e.currentTarget
+	let $buttonValue = $(buttonValue).text()
+	let numValue = parseInt($buttonValue, 10)
 	console.log(numValue)
 })
+
+//Create event listener for op buttons that prints the buttons' value
+
+$(".ops .button").on('click', (e)=>{
+	let buttonValue = e.currentTarget;
+	let $buttonValue = $(buttonValue).text()
+	console.log($buttonValue)
+})
+
 
 
 
