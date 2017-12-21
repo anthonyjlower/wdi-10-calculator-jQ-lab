@@ -5,6 +5,7 @@ body{
 	/*background-color: maroon;*/
 	width: 90vw;
 	height: 90vh;
+	margin: 5vh auto;
 }
 header{
 	width: 100%;
@@ -15,12 +16,12 @@ header{
 
 }
 .screen{
-	width: 75%;
+	width: 70%;
 	background-color: cornsilk;
 	text-align: right;
 }
 .clear{
-	width: 25%;
+	width: 20%;
 	background-color: red;
 }
 main{
@@ -33,10 +34,10 @@ main{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 75%;
+	width: 70%;
 }
 .ops{
-	width: 25%;
+	width: 20%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -52,7 +53,7 @@ main{
 	justify-content: space-between;
 }
 .ops .button{
-	height: 20%;
+	height: 15%;
 	width: 100%;
 	text-align: center;
 	background-color: green;
