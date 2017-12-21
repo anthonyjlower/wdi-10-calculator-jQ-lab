@@ -31,6 +31,13 @@ $(".ops .button").on('click', (e)=>{
 })
 
 
+// Create a variable that holds the value to be displayed in the screen and updates when buttons are clicked
 
+let $displayedNum = $('.screen')
+
+
+function updateScreen() {
+	$displayedNum
+}
 
 
